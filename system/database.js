@@ -98,8 +98,8 @@ module.exports = (m) => {
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
       if (!('groupmode' in setting)) setting.groupmode = false
-      if (!('sk_pack' in setting)) setting.sk_pack = 'Sticker'
-      if (!('sk_author' in setting)) setting.sk_author = '@neoxrs'
+      if (!('sk_pack' in setting)) setting.sk_pack = 'bobiz'
+      if (!('sk_author' in setting)) setting.sk_author = 'bot'
       if (!('self' in setting)) setting.self = false
       if (!('mimic' in setting)) setting.mimic = []
       if (!('multiprefix' in setting)) setting.multiprefix = true
