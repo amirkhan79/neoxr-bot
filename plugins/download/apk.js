@@ -24,7 +24,7 @@ exports.run = {
                   description: `[ ${v.size} | ${v.version} ]`
                })
             })
-            client.sendList(m.chat, '', `Showing search results for : “${text}”, select below the application you want to download. 🍟`, '', 'Tap!', [{
+            client.sendList(m.chat, '', `Showing search results for : “${text}”, select below the application you want to download. 🍟`, '', 'إضغط هنا 😉', [{
                rows
             }], m)
          } else if (command == 'getapk') {
