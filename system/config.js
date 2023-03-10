@@ -2,11 +2,11 @@ const { Function: Func } = new (require('@neoxr/neoxr-js'))
 // Owner number
 global.owner = +16314072448
 // Owner name
-global.owner_name = 'Wildan Izzudin'
+global.owner_name = 'nour'
 // Database name (Default: database)
 global.database = 'bot'
-// Maximum upload file size limit (Default : 100 MB)
-global.max_upload = 100
+// Maximum upload file size limit (Default : 500 MB)
+global.max_upload = 500
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
 // User Limitation (Default : 25)
@@ -31,7 +31,7 @@ global.version = '2.2.2',
 // Bot name
 global.botname = `© neoxr-bot v${global.version} (Public Bot)`
 // Footer text
-global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɴᴇᴏxʀ ッ'
+global.footer = 'Nour'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
