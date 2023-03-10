@@ -29,7 +29,7 @@ global.timezone = 'Asia/Jakarta'
 // Bot version
 global.version = '2.2.2',
 // Bot name
-global.botname = `© neoxr-bot v${global.version} (Public Bot)`
+global.botname = `© nour bot ♥ (❀)`
 // Footer text
 global.footer = 'Nour'
 // Global status
