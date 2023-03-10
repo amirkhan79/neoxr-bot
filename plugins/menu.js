@@ -68,7 +68,7 @@ exports.run = {
          } else if (style == 2) {
             if ((id in client.menu)) {
                await client.sendReact(m.chat, '😡', m.key)
-               return client.reply(m.chat, `Hi @${m.sender.split`@`[0]} ^\nصديقي لقد تماديت كثيرا في استعمال البوت بكثرة المرجو الاعادة بعد ثلاث دقائق*3*.`, client.menu[id][0])
+               return client.reply(m.chat, `Hi @${m.sender.split`@`[0]} ^\nصديقي لقد تماديت كثيرا في استعمال البوت بكثرة المرجو الاعادة بعد ثلاث دقائق  3*.`, client.menu[id][0])
             }
             let filter = Object.entries(plugins).filter(([_, obj]) => obj.run.usage)
             let cmd = Object.fromEntries(filter)
